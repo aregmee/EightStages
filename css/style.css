@@ -1,0 +1,776 @@
+.menu-open {
+    float: right;
+    position: absolute;
+    right: 3%;
+    top: 25px;
+    content: url(../images/menu-toggle.png);
+    width: 20px;
+}
+
+header {
+    background-color: #7dd8e8;
+}
+
+.header-left {
+    text-align: center;
+}
+
+.header-left > form {
+    padding-top: 10px;
+}
+
+.header-left > h1 {
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+}
+
+.search-box > input {
+    width: 217px;
+    font-size: 10px;
+    border-radius: 15px;
+    background-color: #cbeff6;
+    border: none;
+    padding: 3px 10px;
+    font-family: 'Istok Web', serif;
+}
+
+.search-box > input:focus {
+    outline: none;
+}
+
+.search-box img {
+    width: 9px;
+}
+
+.search-box {
+    border-radius: 15px;
+    background-color: #cbeff6;
+    padding-right: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.search-button {
+    color: #ffffff;
+    background-color: #274f56;
+    border: 0;
+    border-radius: 20px;
+    padding: 3px 6px;
+}
+
+li,
+h1 {
+    display: inline;
+}
+
+.header-right {
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+}
+
+.header-right > ul {
+    font-family: 'Istok Web', serif;
+    font-size: 11px;
+}
+
+.header-right > ul > li:after {
+    content: url(../images/pipeline-top.png);
+    position: relative;
+    top: 3px;
+}
+
+.header-right > ul > li:last-child:after {
+    content: "";
+}
+
+.header-right > ul > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-right > h2 {
+    font-family: 'Muli', serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.nav-container {
+    background-color: #f5f5f5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.nav-left > ul > li > a,
+.nav-right > ul > li > a {
+    padding: 10px;
+}
+
+.recent > li > a > .down-arrow {
+    content: url('../images/down-arrow.png');
+}
+
+.recent > li > a:hover .down-arrow {
+    content: url('../images/down-arrow-blue.png');
+}
+
+
+/*for firefox*/
+
+.saved > li > a > .hamburger:after {
+    content: url('../images/hamburger.png');
+}
+
+.saved > li > a:hover .hamburger:after {
+    content: url('../images/hamburger-blue.png');
+}
+
+.recent > li > a > .down-arrow:after {
+    content: url('../images/down-arrow.png');
+}
+
+.recent > li > a:hover .down-arrow:after {
+    content: url('../images/down-arrow-blue.png');
+}
+
+.nav-left {
+    font-family: 'Muli', serif;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.nav-right {
+    font-family: 'Muli', serif;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.nav-left > ul > li > a,
+.nav-right > ul > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-left > ul > li >a:hover,
+.nav-right > ul > li >a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.topic-invites-icon {
+    content: url(../images/topicBox.png);
+    position: relative;
+    top: 2px;
+    right: 7px;
+}
+
+.friend-requets-icon {
+    content: url(../images/icon-person-128.png);
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 3px;
+    right: 7px;
+}
+
+
+/*for firefox*/
+
+.topic-invites-icon:after {
+    content: url(../images/topicBox.png);
+    top: 2px;
+    right: 7px;
+    position: relative;
+}
+
+.friend-requets-icon:after {
+    content: url(../images/icon-person-128.png);
+    width: 16px;
+    top: 2px;
+    right: 7px;
+    position: relative;
+}
+
+.col3-l > ul,
+.col3-r > ul {}
+
+.recent > li:last-child,
+.savedVideoTutorialsList > li:last-child {
+    padding: 5%;
+    width: 90%;
+}
+
+.col3-l > ul,
+.col3-r > ul {
+    background-color: #f4f4f4;
+    display: block;
+    width: 100%;
+}
+
+.col3-l > ul > li > a > .search-text,
+.col3-r > ul > li > a > span {
+    display: inline-block;
+    width: 89%;
+}
+
+.col-heading {
+    background-color: #2fc1d9 !important;
+    padding: 3%;
+    width: 94%;
+    font-family: 'Muli', serif;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.col-heading > h3 {
+    font-weight: normal;
+    color: #ffffff;
+    width: 80%;
+    display: inline-block;
+}
+
+.col-heading > img {
+    float: right;
+    width: 21px;
+    position: relative;
+    right: 7px;
+}
+
+.col3-l > ul > li,
+.col3-r > ul > li {
+    display: block;
+    width: 100%;
+}
+
+.col3-l > ul > li > a:hover,
+.col3-r > ul > li > a:hover {
+    background-color: #ffffff;
+    color: #63b6c4;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.col3-l > ul > li > a,
+.col3-r > ul > li > a {
+    text-decoration: none;
+    color: #292929;
+    display: inline-block;
+    padding: 7px;
+    width: 96.5%;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Istok Web', serif;
+}
+
+.recent > li > a > .down-arrow,
+.recent > li > a:hover .down-arrow {
+    width: 9px;
+    float: right;
+    position: relative;
+    right: 17px;
+}
+
+.recent > li > a > .down-arrow:after,
+.recent > li > a:hover .down-arrow:after {
+    right: 8px;
+}
+
+.saved > li > a {
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.saved > li > a:hover {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.saved > li > a > .hamburger,
+.saved > li > a:hover .hamburger,
+.saved > li > a > .hamburger:after,
+.saved > li > a:hover .hamburger:after {
+    width: 20px;
+    float: right;
+    position: relative;
+    right: 5px;
+}
+
+.recent > li:last-child:hover {
+    background-color: #f5f5f5;
+    cursor: default;
+}
+
+.savedVideoTutorialsList > li:last-child:hover {
+    background-color: #f5f5f5;
+    cursor: default;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.main-header {
+    background-color: #274f56;
+    color: #ffffff;
+    width: 96%;
+    padding: 2%;
+    font-family: 'Muli', serif;
+    font-weight: normal;
+}
+
+.main-header,
+.main-header > h3 {
+    display: inline-block;
+}
+
+.main-header > h3 {
+    font-size: 18px;
+}
+
+.main-header > span {
+    font-size: 14px;
+}
+
+.header-dropdown {
+    float: right;
+}
+
+.entry-info > li:after {
+    content: url(../images/pipeline.jpg);
+}
+
+.entry-info > li:last-child:after {
+    content: "";
+}
+
+.entry-info {
+    padding-top: 2px;
+    display: block;
+}
+
+.entry-info {
+    font-weight: normal;
+    font-family: 'Istok Web', serif;
+    font-size: 11px;
+}
+
+.entry-info a {
+    text-decoration: none;
+    color: #63b6c4;
+}
+
+.entry-header>a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Muli', serif;
+}
+
+.entry-header:hover {
+    text-decoration: underline;
+}
+
+.subscribed {
+    color: #709620;
+    font-weight: bold;
+}
+
+.back-to-top {
+    float: right;
+    font-family: 'Istok Web', serif;
+    font-size: 12px;
+    padding-top: 2%;
+}
+
+footer {
+    background-color: #d4d4d4;
+    color: #979797;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: 'Istok Web', serif;
+}
+
+.footer-left > ul {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.footer-left > ul > li {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer-left > ul > li:first-child {
+    display: inline;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+}
+
+.footer-left > ul > li:hover {
+    font-weight: bold;
+    cursor: pointer;
+    color: #5c5c5c;
+}
+
+.footer-right {
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 480px) {
+    .footer-left > ul {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .footer-left > ul > li:after {
+        content: '\2022';
+        margin-left: 10px;
+    }
+    .footer-left > ul > li {
+        margin-left: 10px;
+        display: inline-block;
+        width: auto;
+        margin-top: 0px;
+    }
+    .footer-left > ul > li:last-child:after {
+        content: "";
+        margin-right: 0px;
+    }
+    .footer-left li:hover:after {
+        color: #979797;
+    }
+    .footer-wrapper {
+        margin: 0 auto;
+    }
+    .footer-left > ul > li:hover {
+        font-weight: bold;
+        cursor: pointer;
+        color: #5c5c5c;
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-open {
+        display: none;
+    }
+    .header-left > h1 {
+        font-size: 50px;
+    }
+    .header-left > form {
+        padding-top: 20px;
+    }
+    .header-left > h1 {
+        float: left;
+    }
+    .header-left > form {
+        float: left;
+        margin-left: 0;
+    }
+    .header-right {
+        text-align: right;
+    }
+    .nav-container {
+        overflow: visible;
+        max-height: none;
+        transition: none;
+    }
+    .nav-wrapper {
+        font-family: 'Muli', serif;
+        font-size: 13px;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+        content: "";
+    }
+    .nav-left{
+        display: inline-block;
+    }
+    .nav-right{
+        padding-top: 5px;
+    }
+    .nav-left > ul > li,
+    .nav-right > ul > li {
+        float: left;
+    }
+    .nav-left > ul > li,
+    .nav-right > ul > li {
+        display: inline-block;
+        width: auto;
+    }
+    .nav-right > ul > li:first-child {
+        padding-left: 0px;
+    }
+    .nav-left > ul > li > a,
+    .nav-right > ul > li > a {
+        text-decoration: none;
+        color: #000000;
+    }
+    .nav-left > ul > li > a{
+        padding-left: 0px;
+    }
+    .nav-right > ul > li > a {
+        padding-right: 10px;
+    }
+    .nav-right > ul > li:last-child {
+        padding-right: 0px;
+    }
+    .nav-left > ul > li >a:hover,
+    .nav-right > ul > li >a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .nav-right > ul > li:last-child > a {
+        padding-right: 0px;
+    }
+    .nav-right > ul {
+        display: inline-block;
+        width: 100%;
+        padding-top: 0px;
+    }
+    .nav-left > ul {
+        display: inline-block;
+        width: 100%;
+        float: left;
+    }
+    .nav-left > ul,
+    .nav-right > ul {
+        text-align: left;
+    }
+    .topic-invites-icon {
+        top: 2px;
+        right: 7px;
+    }
+    .friend-requets-icon {
+        top: 2px;
+        right: 7px;
+    }
+    /*for firefox*/
+    .topic-invites-icon:after {
+        top: 2px;
+        right: 7px;
+    }
+    .friend-requets-icon:after {
+        top: 2px;
+        right: 7px;
+    }
+    .col3-l > ul,
+    .col3-r > ul {
+        display: inline-block;
+        width: 100%;
+    }
+    .col3-l > ul > li,
+    .col3-r > ul > li {
+        display: block;
+        width: 100%;
+    }
+    .col3-l > ul > li > a > .search-text,
+    .col3-r > ul > li > a > span {
+        display: inline-block;
+        width: 80%;
+    }
+    .col-heading {
+        padding: 3%;
+        width: 94%;
+    }
+    .col3-l > ul > li > a,
+    .col3-r > ul > li > a {
+        padding: 5px;
+        width: 92%;
+    }
+    .recent > li > a > .down-arrow,
+    .recent > li > a:hover .down-arrow,
+    .recent > li > a > .down-arrow:after,
+    .recent > li > a:hover .down-arrow:after {
+        right: 10px;
+    }
+    .saved > li > a > .hamburger,
+    .saved > li > a:hover .hamburger,
+    .saved > li > a > .hamburger:after,
+    .saved > li > a:hover .hamburger:after {
+        right: 0;
+    }
+    .recent > li:last-child,
+    .savedVideoTutorialsList > li:last-child {
+        padding: 5%;
+        width: 90%;
+    }
+    .main {
+        margin-top: 0;
+    }
+    .footer-left {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-left > ul {
+        width: 100%;
+    }
+    .footer-left > ul > li {
+        float: left;
+    }
+    .footer-left > ul > li:first-child {
+        margin-left: 0px;
+    }
+    .footer-left,
+    .footer-right {
+        margin-top: 0px;
+    }
+    .footer-right > span {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-left > h1 {
+        float: left;
+    }
+    .header-left > form {
+        float: left;
+        margin-left: 30px;
+    }
+    .header-right {
+        text-align: right;
+        padding: 15px 0px;
+        display: block;
+        width: 15%;
+    }
+    .nav-left {
+        font-family: 'Muli', serif;
+        font-size: 13px;
+    }
+    .nav-right {
+        font-family: 'Muli', serif;
+        font-size: 11px;
+    }
+    .nav-right > ul {
+        display: inline-block;
+        width: 100%;
+        padding-top: 0px;
+        text-align: right;
+    }
+    .nav-left > ul {
+        display: inline-block;
+        width: 100%;
+    }
+    .nav-left > ul > li,
+    .nav-right > ul > li {
+        display: inline-block;
+        padding: 0;
+        width: auto;
+    }
+    .nav-right > ul > li{
+        float: none;
+    }
+    .nav-left > ul > li:first-child {
+        padding-left: 0px;
+    }
+    .nav-left > ul > li > a {
+        float: none;
+        padding-left: 10px;
+    }
+    .nav-right > ul > li > a {
+        float: none;
+    }
+    .nav-left > ul > li > a,
+    .nav-right > ul > li > a {
+        text-decoration: none;
+        color: #000000;
+    }
+    .nav-right > ul > li > a {
+        padding-right: 0;
+        margin-right: 15px;
+    }
+    .nav-right > ul > li:last-child {
+        padding-right: 0px;
+    }
+    .nav-right > ul > li:first-child {
+        padding-left: 0px;
+    }
+    .nav-left > ul > li >a:hover,
+    .nav-right > ul > li >a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .nav-right > ul > li:last-child > a {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .nav-right {
+        padding-top: 0px;
+    }
+    .nav-right > ul {
+        display: inline-block;
+        width: 100%;
+        padding-top: 0px;
+    }
+    .topic-invites-icon {
+        top: 3px;
+        right: 7px;
+    }
+    .friend-requets-icon {
+        top: 4px;
+        right: 7px;
+    }
+    /*for firefox*/
+    .topic-invites-icon:after {
+        top: 0px;
+        right: 3px;
+    }
+    .friend-requets-icon:after {
+        top: 0px;
+        right: 3px;
+    }
+    .col3-l > ul,
+    .col3-r > ul {
+        display: inline-block;
+        width: 100%;
+        background-color: #f4f4f4;
+    }
+    .col3-l > ul > li,
+    .col3-r > ul > li {
+        display: block;
+        width: 100%;
+    }
+    .col3-l > ul > li > a > .search-text,
+    .col3-r > ul > li > a > span {
+        width: 80%;
+    }
+    .col-heading {
+        padding: 3%;
+        width: 94%;
+    }
+    .col3-l > ul > li > a,
+    .col3-r > ul > li > a {
+        padding: 7px;
+        width: 92%;
+    }
+    .recent > li:last-child,
+    .savedVideoTutorialsList > li:last-child {
+        padding: 5%;
+        width: 90%;
+    }
+    .main {
+        margin-top: 0px;
+    }
+    .footer-left {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-left,
+    .footer-right {
+        margin-top: 0px;
+    }
+}
